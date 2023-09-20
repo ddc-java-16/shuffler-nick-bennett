@@ -12,6 +12,14 @@ application {
     mainClass.set(project.property("mainClass") as String)
 }
 
+/*
+tasks.run {
+    with (this as JavaExec) {
+        standardInput = System.`in`
+    }
+}
+*/
+
 repositories {
     mavenCentral()
 }
